@@ -1,0 +1,16 @@
+#!/bin/sh
+# Keep user's relative input paths relative to their working directory.
+set -eu
+if [ -n "${AGENT_DECISION_TOOLS_BIN:-}" ]; then
+    exec "$AGENT_DECISION_TOOLS_BIN" "$@"
+fi
+script_dir=$(CDPATH= cd -P "$(dirname "$0")" && pwd)
+checkout_bin="$script_dir/../../../.venv/bin/agent-decision-tools"
+if [ -x "$checkout_bin" ]; then
+    exec "$checkout_bin" "$@"
+fi
+if command -v agent-decision-tools >/dev/null 2>&1; then
+    exec agent-decision-tools "$@"
+fi
+echo 'Prepare the tools checkout with uv sync --locked and set AGENT_DECISION_TOOLS_BIN to its .venv/bin/agent-decision-tools.' >&2
+exit 127

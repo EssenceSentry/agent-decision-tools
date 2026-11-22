@@ -30,6 +30,8 @@ The example inspection costs 0.25 hours. It changes the preferred action to prev
 
 ## Call from an agent
 
+The [decision-tools skill](skills/agent-decision-tools/SKILL.md) guides an agent through choosing an operation, grounding its inputs and interpreting the result. Its launcher works from a task directory outside this checkout.
+
 ```python
 import json
 from pathlib import Path
