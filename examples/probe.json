@@ -1,0 +1,10 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "unit": "active minutes",
+  "cost": 20,
+  "gains_if_success": [
+    60,
+    120,
+    180
+  ]
+}

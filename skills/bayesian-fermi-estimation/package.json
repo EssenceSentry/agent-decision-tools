@@ -1,0 +1,8 @@
+{
+  "name": "fermi-estimation-runtime",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "dependencies": {"@quri/squiggle-lang": "0.10.0"},
+  "scripts": {"test": "node --test scripts/run.test.mjs"}
+}

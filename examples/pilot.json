@@ -1,0 +1,51 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "unit": "hours",
+  "payoffs": {
+    "defect": {
+      "ship": -10,
+      "fix": -4
+    },
+    "clean": {
+      "ship": 0,
+      "fix": -4
+    }
+  },
+  "probabilities": {
+    "defect": 0.1,
+    "clean": 0.9
+  },
+  "depth": 2,
+  "budget": 0.9,
+  "conditionally_independent": true,
+  "checks": [
+    {
+      "name": "pilot",
+      "cost": 0.1,
+      "likelihoods": {
+        "defect": {
+          "flag": 0.9,
+          "clear": 0.1
+        },
+        "clean": {
+          "flag": 0.2,
+          "clear": 0.8
+        }
+      }
+    },
+    {
+      "name": "confirm",
+      "cost": 0.8,
+      "likelihoods": {
+        "defect": {
+          "failed": 1,
+          "passed": 0
+        },
+        "clean": {
+          "failed": 0,
+          "passed": 1
+        }
+      }
+    }
+  ]
+}

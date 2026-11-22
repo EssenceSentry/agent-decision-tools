@@ -1,0 +1,25 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "deadline": 10,
+  "reserve": 2,
+  "jobs": {
+    "inspect": {
+      "duration": 2,
+      "resource": "worker",
+      "value": 1
+    },
+    "benchmark": {
+      "duration": 6,
+      "resource": "worker",
+      "value": 7,
+      "requires": [
+        "inspect"
+      ]
+    },
+    "alternative": {
+      "duration": 7,
+      "resource": "worker",
+      "value": 4
+    }
+  }
+}

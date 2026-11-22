@@ -1,0 +1,12 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "looks": [
+    10,
+    20,
+    40
+  ],
+  "trials": 20,
+  "successes": 19,
+  "threshold": 0.5,
+  "alpha": 0.05
+}

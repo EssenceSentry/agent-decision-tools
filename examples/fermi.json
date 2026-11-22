@@ -1,0 +1,7 @@
+{
+  "basis": "Synthetic summary of 30 matched changes with additional minutes per caller at p10=20 and p90=80. Three identified callers share integration difficulty.",
+  "unit": "active minutes",
+  "source": "// Synthetic matched-change summary. Return minutes avoided conditional on success.\nminutesSavedIfFound(callers, extraMinutesPerCaller) = callers * extraMinutesPerCaller\nminutesSavedIfFound(3, lognormal({p10: 20, p90: 80}))\n",
+  "samples": 1000,
+  "seed": "42"
+}

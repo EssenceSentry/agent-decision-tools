@@ -1,0 +1,17 @@
+# Written by Copier; `copier update` reads it to apply template changes.
+_commit: v0.1.0-1-g452653c
+_src_path: /Users/agustinsellanes/Repos/lathe
+author_email: 49651745+EssenceSentry@users.noreply.github.com
+author_name: Agustín Sellanes
+description: Price evidence, plan bounded investigations and compare decisions under
+    uncertainty.
+distribution_name: agent-decision-tools
+docs_site: false
+github_owner: EssenceSentry
+license: proprietary
+package_name: agent_decision_tools
+project_name: Agent Decision Tools
+python_min: '3.12'
+shape: cli
+versioning: snapshot
+visibility: private

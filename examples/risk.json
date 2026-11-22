@@ -1,0 +1,14 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "unit": "hours",
+  "payoffs": {
+    "defect": {
+      "leave": -16,
+      "prevent": -4
+    },
+    "clean": {
+      "leave": 0,
+      "prevent": -4
+    }
+  }
+}

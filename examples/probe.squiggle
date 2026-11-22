@@ -1,0 +1,3 @@
+// Synthetic matched-change summary. Return minutes avoided conditional on success.
+minutesSavedIfFound(callers, extraMinutesPerCaller) = callers * extraMinutesPerCaller
+minutesSavedIfFound(3, lognormal({p10: 20, p90: 80}))

@@ -1,0 +1,15 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "question": "Will the second review change the decision?",
+  "opinions": {
+    "A": {
+      "probability": 0.3,
+      "previous": 0.2,
+      "reason": "Few routine cases were reopened."
+    },
+    "B": {
+      "probability": 0.6,
+      "reason": "The current queue includes more difficult cases."
+    }
+  }
+}

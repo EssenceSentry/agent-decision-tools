@@ -1,0 +1,21 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "records": [
+    {
+      "event": "case-a",
+      "occurred": true,
+      "forecasts": {
+        "A": 0.8,
+        "B": 0.5
+      }
+    },
+    {
+      "event": "case-b",
+      "occurred": false,
+      "forecasts": {
+        "A": 0.2,
+        "B": 0.5
+      }
+    }
+  ]
+}

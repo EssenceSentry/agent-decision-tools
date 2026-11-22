@@ -1,0 +1,9 @@
+{
+  "basis": "Synthetic retry count and usage record for the last complete week.",
+  "decision": "Keep the current implementation",
+  "signposts": {
+    "volume": {"metric": "weekly_requests", "direction": "at_least", "threshold": 100, "unit": "requests/week", "action": "Reprice the shared implementation", "owner": "engineering"},
+    "cost": {"metric": "unit_cost", "direction": "at_least", "threshold": 2, "unit": "USD/request", "action": "Review procurement", "owner": "budget owner"}
+  },
+  "observations": {"weekly_requests": 123}
+}

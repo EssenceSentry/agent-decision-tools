@@ -1,0 +1,38 @@
+{
+  "basis": "Synthetic planning example for checking the arithmetic; replace with measured or elicited inputs.",
+  "unit": "hours",
+  "payoffs": {
+    "defect": {
+      "leave": -16,
+      "prevent": -4
+    },
+    "clean": {
+      "leave": 0,
+      "prevent": -4
+    }
+  },
+  "probabilities": {
+    "defect": 0.2,
+    "clean": 0.8
+  },
+  "partition": {
+    "defect": "yes",
+    "clean": "no"
+  },
+  "checks": [
+    {
+      "name": "inspect",
+      "cost": 0.25,
+      "likelihoods": {
+        "defect": {
+          "positive": 0.8,
+          "negative": 0.2
+        },
+        "clean": {
+          "positive": 0.1,
+          "negative": 0.9
+        }
+      }
+    }
+  ]
+}
