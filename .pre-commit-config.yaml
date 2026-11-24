@@ -82,6 +82,14 @@ repos:
         always_run: true
         stages: [pre-push]
 
+      - id: skill-helpers
+        name: independent skill helpers and checkpoint hooks
+        entry: node --test tests/test_skill_helpers.mjs
+        language: system
+        pass_filenames: false
+        always_run: true
+        stages: [pre-push]
+
       - id: docs
         name: docs build without warnings
         entry: uv run --no-sync sphinx-build -W -n --keep-going -q -b html docs docs/_build/html

@@ -1,6 +1,6 @@
 # Agent Decision Tools
 
-Price evidence, plan bounded investigations and compare decisions under uncertainty.
+Independent research and engineering skills and a local calculation API. Use the skill whose description matches the problem. The guides below cover the calculation runtime.
 
 ```{toctree}
 :maxdepth: 2

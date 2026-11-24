@@ -1,13 +1,15 @@
 # Agent Decision Tools: notes for coding agents
 
-Price evidence, plan bounded investigations and compare decisions under uncertainty.
+Maintain independent, need-activated skills and the calculation API they can use. Each skill must work when it is the only one linked into a project.
 
 ## Layout
 
 - `src/agent_decision_tools/core.py` dispatches validated requests to the decision, evidence, scheduling, record and Fermi modules.
 - `src/agent_decision_tools/cli.py` is a thin command line over `core`.
 - `tests/` mirrors the modules; `docs/` is Sphinx with MyST Markdown.
-- `skills/bayesian-fermi-estimation/` contains the Squiggle skill and its Node.js runtime.
+- `skills/*/SKILL.md` is a standalone entry point. Keep its trigger specific and its references, scripts and licenses local.
+- `skills/bayesian-fermi-estimation/` contains the Squiggle runtime.
+- `scripts/link_skills.py` links selected packages for Codex and Claude Code.
 - `scripts/` holds repository checks that run as hooks.
 
 ## Commands
