@@ -1,3 +1,5 @@
+![Agent Decision Tools. A 15-minute inspection can change what you do next.](.github/assets/banner.svg)
+
 # Agent Decision Tools
 
 Independent skills for research and software engineering, with a local Python API, a JSON CLI and a Squiggle runtime for decisions under uncertainty.

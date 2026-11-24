@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Agent Decision Tools</title>
+  <desc id="desc">In a synthetic defect example, a 15-minute inspection leads to prevention after a positive result and no change after a negative result.</desc>
+  <defs>
+    <linearGradient id="ground" x2="1" y2="1"><stop stop-color="#142d29"/><stop offset="1" stop-color="#0e211f"/></linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="16" fill="url(#ground)"/>
+  <g fill="none" stroke="#2d4b43">
+    <path d="M56 72h32 M56 294h566 M675 45v270"/>
+    <path d="M711 80h441 M711 290h441" stroke-dasharray="2 6"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path d="M57 72h24" stroke="#addeb6" stroke-width="3"/>
+    <text x="93" y="77" font-size="15" letter-spacing="1.8" fill="#c4d9ca">SKILLS FOR RESEARCH AND ENGINEERING</text>
+    <text x="52" y="166" font-size="62" letter-spacing="-2.5" font-weight="700" fill="#f4f3e5">Agent Decision Tools</text>
+    <text x="56" y="229" font-size="32" letter-spacing="-.65" fill="#d6e6d9">Is the next check worth running?</text>
+    <text x="56" y="322" font-size="16" fill="#abc3b7">Codex and Claude</text>
+    <circle cx="211" cy="317" r="2" fill="#a3c6ac"/>
+    <text x="227" y="322" font-size="16" fill="#abc3b7">Python and Squiggle</text>
+    <text x="712" y="58" font-size="15" letter-spacing="1.5" fill="#b8cdbf">SYNTHETIC DEFECT EXAMPLE</text>
+    <path d="M852 182h22q10 0 15 -11l15 -41q3 -8 13 -8h13 M874 182q10 0 15 11l15 41q3 8 13 8h13" fill="none" stroke="#7da58f" stroke-width="2.4"/>
+    <rect x="712" y="151" width="142" height="62" rx="10" fill="#263f36" stroke="#82ae91"/>
+    <text x="783" y="177" text-anchor="middle" font-size="21" font-weight="700" fill="#eff4df">Inspect</text>
+    <text x="783" y="198" text-anchor="middle" font-size="15" fill="#bdd4c5">15 minutes</text>
+    <circle cx="930" cy="122" r="5" fill="#bae8b6"/>
+    <circle cx="930" cy="242" r="5" fill="#182e29" stroke="#b7c9bf" stroke-width="2"/>
+    <text x="949" y="114" font-size="16" fill="#bfdfc0">Positive · 24%</text>
+    <text x="948" y="144" font-size="25" font-weight="700" fill="#eff4df">Prevent defect</text>
+    <text x="949" y="234" font-size="16" fill="#c2d2c8">Negative · 76%</text>
+    <text x="948" y="264" font-size="25" font-weight="700" fill="#eff4df">Leave as is</text>
+    <text x="712" y="322" font-size="17" fill="#d8e8d8">Expected net saving</text>
+    <text x="1149" y="322" text-anchor="end" font-size="20" font-weight="700" fill="#c4e9ba">1.35 hours</text>
+  </g>
+</svg>
